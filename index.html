@@ -10,19 +10,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;400;600;700&display=swap" rel="stylesheet" />
 
-    <!--textphp-->
-    <?php if (! is_home() && get_the_post_thumbnail_url()): ?>
-	    	<meta property="og:image"           content="<?php echo get_the_post_thumbnail_url(); ?>" />
-	    	<meta property="og:title"           content="<?php if (the_title()) { the_title(); } ?>" />
-	    	<?php
-	    		$content = get_the_content();
-	    		$content = preg_replace("/<embed?[^>]+>/i", "(embed) ", $content);
-	    		$content = wp_strip_all_tags($content);
-	    	?>
-	    	<meta property="og:description"     content="<?php echo substr(str_replace('"', '', $content), 0, 200); ?>"/>
-	    	<meta property="og:url"             content="<?php if (the_permalink()) { the_permalink(); } ?>"/>
-	    <?php endif ?>
-
     <!--Java Script Simply Countdown-->
     <script>
       "use strict";
