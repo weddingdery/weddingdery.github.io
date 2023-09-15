@@ -515,6 +515,18 @@ margin: 5px;
     width: 140px;
     height: 140px;
   }
+      .mynavbar .navbar-brand,
+  .mynavbar .offcanvas-title{
+    font-family: 'Sacramento', cursive;
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+
+
+  .mynavbar .offcanvas{
+    height: 100vh;
+    width: 60%;
+  }
 }
 /*ukuran untuk mobile/hp*/
 @media (max-width: 576px) {
