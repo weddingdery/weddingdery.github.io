@@ -549,38 +549,4 @@ margin: 3px;
 .timeline li .timeline-panel::after{
   top: 31px;
 }
-  .mynavbar .navbar-brand,
-  .mynavbar .offcanvas-title{
-    font-family: 'Sacramento', cursive;
-    font-size: 2.2rem;
-    font-weight: bold;
-  }
-
-  .mynavbar .offcanvas{
-    height: 100vh;
-    width: 60%;
-  }
 }
-
-/* ukuran dibawah 500px */
-@media (max-width: 380px) {
-  40%;
-  .simply-countdown>.simply-section{
-  padding: 30px;
-  margin: 3px;
-  }
-  .timeline li .timeline-image{
-      width: 80px;
-      height: 80px;
-    }
-  .timeline li .timeline-panel{
-    width: 65%;
-    transform: translateX(-20px)
-  }
-  .timeline li .timeline-panel::before{
-    top: 30px;
-  }
-  .timeline li .timeline-panel::after{
-    top: 31px;
-  }
-  }
