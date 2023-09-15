@@ -561,3 +561,26 @@ margin: 3px;
     width: 60%;
   }
 }
+
+/* ukuran dibawah 500px */
+@media (max-width: 380px) {
+  40%;
+  .simply-countdown>.simply-section{
+  padding: 30px;
+  margin: 3px;
+  }
+  .timeline li .timeline-image{
+      width: 80px;
+      height: 80px;
+    }
+  .timeline li .timeline-panel{
+    width: 65%;
+    transform: translateX(-20px)
+  }
+  .timeline li .timeline-panel::before{
+    top: 30px;
+  }
+  .timeline li .timeline-panel::after{
+    top: 31px;
+  }
+  }
