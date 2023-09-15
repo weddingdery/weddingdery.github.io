@@ -515,7 +515,7 @@ margin: 5px;
     width: 140px;
     height: 140px;
   }
-      .mynavbar .navbar-brand,
+  .mynavbar .navbar-brand,
   .mynavbar .offcanvas-title{
     font-family: 'Sacramento', cursive;
     font-size: 2.2rem;
@@ -549,4 +549,15 @@ margin: 3px;
 .timeline li .timeline-panel::after{
   top: 31px;
 }
+  .mynavbar .navbar-brand,
+  .mynavbar .offcanvas-title{
+    font-family: 'Sacramento', cursive;
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+
+  .mynavbar .offcanvas{
+    height: 100vh;
+    width: 60%;
+  }
 }
